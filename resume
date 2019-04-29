@@ -1,0 +1,225 @@
+<!DOCTYPE html>
+
+<html lang="en" xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta charset="utf-8" />
+    <title></title>
+    <link href="Content/myCV.css" rel="stylesheet" type="text/css" />
+    <script src="Scripts/jquery-2.0.2.js"></script>
+    <script src="Scripts/myCV.js"></script>
+</head>
+<body>
+    <div id="container">
+        <div id="content">
+            <header id="bigheader">
+                <img id="meimg" src="Images/me.jpg" />
+                <div>
+                    Richard Lowe.
+		        <nav id="social">
+                    <a href="mailto:riklowe@hotmail.com">
+                        <img src="Images/email.png" /></a>
+                    <a href="http://www.linkedin.com/profile/view?id=32197572">
+                        <img src="Images/linkedin.png" /></a>
+                </nav>
+                </div>
+            </header>
+            <section>
+                <header>Contact Information</header>
+                <div id="col1">
+                    Richard Lowe
+                <br />
+                    14 Parkway<br />
+                    Huntingdon, PE29 6JB
+                </div>
+                <div id="col2">
+                    Email: <a href="mailto:riklowe@hotmail.com">richard.lowe@hotmail.com</a>
+                </div>
+            </section>
+            <div id="buttons">
+                <div id="expandall">All</div>
+                <div id="collapseall">All</div>
+            </div>
+                 <section class="hideable">
+                <header>Software Development Experience</header>
+                <div>
+                    <ul>
+                        Programming Languages
+                        <li>C# : 5 years</li>
+                        <li>HTML/JavaScript/CSS : 7 years (including HTML5 / CSS3)</li>
+                        <li>M (as in Mumps / Cache) : 5+ years</li>
+                        <li>M (as in MATLAB) : 10+ years</li>
+                    </ul>
+                    <ul>
+                        Software Packages
+
+                        <li>Microsoft Visual Studio</li>
+                        <li>EpicStudio</li>
+                        <li>Microsoft Office (Word, Excel, Powerpoint)</li> 
+                        <li>MATLAB</li>
+                        <li>Weka (machine learning tools)</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="hideable ">
+                <header>Work Experience</header>
+                <div>
+<ul>
+Software Developer - Epic<br />
+<em>January 2014 to present</em>
+<li>NET webserver / JavaScript client development</li>
+<li>Intersystems Cache (MUMPS) database development</li>
+<li>VB6 client development</li>
+<li>I'm currently on the SlicerDicer R&D Team, previously on the Long Term Care team. I've developed and reviewed countless development logs including enhancements and bug fixes.</li>
+<li>Responsibilities include creating and reviewing designs, reviewing release notes, and mentoring new hires.</li>
+</ul>
+                    <ul>
+                        Research Associate : Systems Neurobiology Laboratories - The Salk Institute<br />
+                        <em>February 2011 to August 2014</em>
+                        <li>Supervisor: Sascha du Lac, Ph.D.</li>
+                        <li>Focus: Mechanistic analysis of the vestibular system</li>
+                    </ul>
+                    <ul>
+                        Graduate Researcher : University of Houston<br />
+                        <em>August 2004 to August 2010</em>
+                        <li>Co-mentor: Kresimir Josic, Ph.D.</li>
+                        <li>Co-mentor: Peter Saggau, Ph.D.</li>
+                        <li>Accomplishments:  
+                        <ul>
+                            <li>I performed electrophysiology and imaging experiments with a 3D
+                                scanning multiphoton microscope.  Additionally, I developed the analysis procedures
+                                to infer the electrical behavior of the entire dendritic tree, given a set of
+                                sparsely localized recording sites.  This was done using a Monte Carlo Particle Filter, and Functional Data Analysis.
+
+                            </li>
+                            <li>With Dr. Costa M. Colbert as my advisor, I performed MATLAB simulations examining the 
+                                properties of an abstract cell model that learns by structural remodeling.
+                            </li>
+                        </ul>
+                        </li>
+                    </ul>
+
+                </div>
+            </section>
+            <section class="hideable">
+                <header>Certifications</header>
+                <div>
+                    <ul>
+                        University of California San Diego : Extension
+                    <li>Data Mining Certificate : December 2012</li>
+                    </ul>
+                    <ul>
+                        Microsoft Certifications
+                    <li>Programming in HTML5 with Javascript and CSS3 Specialist : May 2013 #E283-5052</li>
+                    </ul>
+                </div>
+            </section>
+            <section class="hideable">
+                <header>Awards</header>
+                <div>
+                    <ul>
+                        National Institute of Biomedical Imaging and Bioengineering
+                    <li>Keck Center Fellowship : Theoretical and Computational Neuroscience Training Program, Jan 2009 to Dec 2009</li>
+                    </ul>
+                </div>
+            </section>
+       
+            <section class="hideable">
+                <header>Algorithm Expertise</header>
+                <div>
+                    Linear algebra, signal processing, time-series analysis, GUI creation, model based analysis (Monte Carlo Particle Filtering), graphing and visualization, multivariate regression, classification, clustering, numerical prediction
+                </div>
+            </section>
+            <section class="hideable">
+                <header>Microscopy Skills</header>
+                <div>
+                    More than fourteen years experience with DIC imaging for visual patch
+                     clamp physiology.  Extensive confocal imaging for immunocytochemistry
+                     using Olympus FluoView, as well as two years performing optical Ca<sup>2+</sup>
+                     recordings using a AOD-based three-dimensional multiphoton scanning microscope.
+                </div>
+            </section>
+            <section class="hideable">
+                <header>Education</header>
+                <div>
+                    <ul>
+                        University of Houston, Houston, Texas<br />
+                        <em>Ph.D., Biology & Biochemistry (August 2010)</em>
+                        <li>Dissertation Topic : <em>Spatio-Temporal Information Processing in Single Neurons</em></li>
+                        <br />
+                        <em>Post-baccalaureate Student (January 2002 - August 2004)</em>
+                        <li>Emphasis on Math and Computer Science</li>
+                    </ul>
+                    <ul>
+                        Florida State University, Tallahassee, Florida<br />
+                        <em>B.S., Psychology (May 1998)</em>
+                        <li>Minor in Chemistry</li>
+                    </ul>
+                </div>
+            </section>
+
+            <section class="hideable">
+                <header>Teaching Experience</header>
+                <div>
+                    <ul>
+                        University of Houston, Houston, Texas<br />
+                        <em>Instructional Assistant (August 2004 - May 2005, January 2010 to May 2010)</em>
+                        <li>I taught laboratory sections of both Introductory Biology I and II.  These classes consisted of 26-28 students who were guided through hands-on experiments that illustrated general concepts in Biology, Genetics, Evolution, Microbiology, etc.</li>
+                    </ul>
+                    <ul>
+                        Florida State University, Tallahassee, Florida
+                    <em>Teaching Assistant (January 1997 - December 1997)</em>
+                        <li>Under the supervision of Stan Warmath, M.S., I served as a teaching assistant
+                        for the lab portion of Physiological Psychology, where students learned the detailed
+                        anatomy of the brain.  I also fulfilled the same role for the class Applied
+                        Computing in Psychology.
+                        </li>
+                    </ul>
+                </div>
+            </section>
+
+
+            <section class="hideable">
+                <header>Publications</header>
+                <div>
+                    <ol id="pubs">
+                        <li>Pnevmatikakis EA, Kelleher K, Chen R, Saggau P, Josic K, Paninski L. 
+                        Fast spatiotemporal smoothing of calcium measurements in dendritic trees. 
+                        <em>PLoS Comput Biol.</em> 2012 Jun;8(6).</li>
+                        <li>Kelleher KJ, Hajdik V, Colbert CM, Josic K. Learning by structural remodeling in a class of single cell models. <em>J Comput Neurosci.</em> 2008 Oct;25(2):282-95.</li>
+                        <li>Reddy GD, Kelleher KJ, Fink R, Saggau P. Three-dimensional random access mul- tiphoton microscopy for functional imaging of neuronal activity. <em>Nat Neurosci.</em> 2008 Jun;11(6):713-20.</li>
+                        <li>Heller DA, Garga V, Kelleher KJ, Lee TC, Mahbubani S, Sigworth LA, Lee TR, Rea MA. Patterned networks of mouse hippocampal neurons on peptide-coated gold surfaces. <em>Biomaterials.</em> 2005 Mar;26(8):883-9.</li>
+                    </ol>
+                </div>
+            </section>
+
+<!--            <section class="hideable">
+                <header>References</header>
+                <div>
+                    <ol id="refs">
+                        <li>Well, of course I can't just put the phone numbers of my old advisors on the internet.</li>
+
+                    </ol>
+                </div>
+            </section>-->
+            <footer>
+                HTML5 / CSS3 CV Template by Keith Kelleher.  June 20, 2013.
+            </footer>
+        </div>
+    </div>
+    <script type="text/javascript">
+        var sc_project = 8542113;
+        var sc_invisible = 1;
+        var sc_security = "7100cd5d";
+        var scJsHost = (("https:" == document.location.protocol) ?
+        "https://secure." : "http://www.");
+        document.write("<sc" + "ript type='text/javascript' src='" +
+        scJsHost +
+        "statcounter.com/counter/counter.js'></" + "script>");
+    </script>
+    <noscript><div class="statcounter"><a title="web analytics"
+        href="http://statcounter.com/" target="_blank"><img
+        class="statcounter"
+        src="http://c.statcounter.com/8542113/0/7100cd5d/1/"
+        alt="web analytics"></a></div></noscript>
+</body>
+</html>
